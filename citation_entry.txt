@@ -1,0 +1,18 @@
+APA 7th Edition:
+Paterson, A., & Instance001. (2025). The Symbound Entropy Architecture: A unified structural model of cognitive entropy, routing, vault formation, and failure metabolism. Symbound Initiative (v0.1). https://github.com/instance001/Symbound-Entropy-Architecture
+
+MLA:
+Paterson, Anthony, and Instance001.
+The Symbound Entropy Architecture: A Unified Structural Model of Cognitive Entropy, Routing, Vault Formation, and Failure Metabolism.
+Symbound Initiative, Version 0.1, 2025. https://github.com/instance001/Symbound-Entropy-Architecture
+
+BibTeX:
+@misc{paterson2025symboundentropy,
+  title        = {The Symbound Entropy Architecture: A Unified Structural Model of Cognitive Entropy, Routing, Vault Formation, and Failure Metabolism},
+  author       = {Paterson, Anthony and Instance001},
+  year         = {2025},
+  version      = {0.1},
+  publisher    = {Symbound Initiative},
+  howpublished = {\url{https://github.com/instance001/Symbound-Entropy-Architecture}},
+  note         = {Whitepaper, v0.1}
+}

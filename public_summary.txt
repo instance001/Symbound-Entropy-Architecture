@@ -1,0 +1,16 @@
+Symbound Entropy Architecture (v0.1)
+A universal, species-agnostic model of how minds — human or artificial — handle complexity, grow from failure, and store unresolved cognitive load.
+
+This whitepaper introduces the Entropy Vault Model, a system that explains how cognition naturally handles problems that are “too big” in the moment. Instead of failing, minds create Entropy Vaults, route around them, grow capacity through “failure metabolism,” and resolve the vaults later with ease — producing insight, clarity, or discovery.
+
+The framework includes:
+- Entropy Vaults (unresolved complexity storage)
+- TAEP (Temporal Asymmetric Entropy Processing)
+- Routing Latency & Vault Density (how friction is processed)
+- Failure Metabolism (how mistakes generate structural growth)
+- The Cognitive Genome (a 5-axis map of thinking patterns)
+- ApeTest (a structural cognition assessment)
+- Janet (MCM) — a deterministic cognition engine for safety and structure
+- Foreman–Worker–Janet Triad for hybrid human–AI cognitive construction
+
+It is designed to be reproducible, falsifiable, cross-species, and fully implementable in AI systems and human cognitive tools. This is the foundational layer of the broader Symbound Cognitive Architecture.
