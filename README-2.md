@@ -4,6 +4,10 @@
 **License:** AGPLv3
 
 ## Overview
+
+This repo uses Symbound cognitive-engineering terminology.
+Full glossary available in the Entropy Folding Toolkit.
+
 The **Symbound Entropy Architecture** provides a unified, species-agnostic model describing *how cognitive systems handle complexity, prevent collapse, and convert mistakes into structural growth*. This applies equally to humans, artificial systems (LLMs, MCMs), hybrid human–AI teams, and any cognition-bearing agent with capacity limits.
 
 At its core is a simple idea:
