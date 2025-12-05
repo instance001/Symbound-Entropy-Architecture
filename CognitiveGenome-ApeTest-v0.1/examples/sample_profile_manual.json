@@ -1,0 +1,23 @@
+{
+  "version": "CognitiveGenome_v0.1",
+  "subject_id": "anon-example",
+  "timestamp_utc": "2025-11-19T01:37:13.685683Z",
+  "eucs": {
+    "RecursionDepth": "Deep",
+    "RepresentationPreference": [
+      "Verbal",
+      "SpatialMechanical"
+    ],
+    "CompressionStyle": [
+      "Structure",
+      "Pattern"
+    ],
+    "AmbiguityTolerance": "High",
+    "OverloadFailureMode": "Oversimplify"
+  },
+  "notes": {
+    "free_text": "Example manually-scored profile.",
+    "rubric": "Scored using Cognitive Genome – ApeTest v0.1 manual rubric."
+  },
+  "source_raw_file": "examples/sample_raw_response.json"
+}

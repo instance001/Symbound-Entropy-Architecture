@@ -1,0 +1,26 @@
+{
+  "name": "CognitiveGenome-ApeTest-v0.1",
+  "description": "Run the Cognitive Genome ApeTest v0.1 on a willing participant and produce a scored cognitive topology profile.",
+  "bin_type": "interactive-test",
+  "entrypoints": {
+    "collect_raw": {
+      "command": "python cli/ape_test_v0_1.py",
+      "description": "Run the ApeTest v0.1 and save raw responses."
+    },
+    "score_manual": {
+      "command": "python cli/ape_score_v0_1.py",
+      "description": "Manually score a raw response file using the v0.1 rubric."
+    },
+    "score_llm_stub": {
+      "command": "python cli/ape_score_llm_v0_1.py",
+      "description": "LLM-based scoring stub – requires wiring call_llm()."
+    }
+  },
+  "tags": [
+    "cognitive-genome",
+    "symbound",
+    "non-clinical",
+    "prosthetic-mapping"
+  ],
+  "notes": "Designed to plug into ChattyFactory as a bin. Foreman can present these entrypoints as menu actions."
+}

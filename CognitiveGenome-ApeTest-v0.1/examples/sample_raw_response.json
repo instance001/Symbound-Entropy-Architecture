@@ -1,0 +1,15 @@
+{
+  "version": "CognitiveGenome_v0.1_raw_responses",
+  "subject_id": "anon-example",
+  "timestamp_utc": "2025-11-19T01:37:13.684820Z",
+  "responses": {
+    "probe_1_recursion": "Less food reaches the city, so prices go up and some people can't afford to live there.",
+    "probe_2_representation": "A bicycle has two wheels, a frame, pedals and a chain. When you push the pedals, the chain turns the back wheel and moves you forward.",
+    "probe_3_compression": "A chef restores order and structure to a chaotic kitchen.",
+    "probe_4_ambiguity": "I would start by observing how work currently flows through the company and talking to a few people in different roles to see what they call 'the system'.",
+    "probe_5_overload": "I'd fix the urgent bug, then handle the emails, then prepare the slide deck, and schedule the calls and appointments between tasks."
+  },
+  "notes": {
+    "info": "Example raw response file for ApeTest v0.1."
+  }
+}
