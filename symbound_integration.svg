@@ -1,0 +1,93 @@
+<svg width="1600" height="2600" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .box { fill:#ffffff; stroke:#000; stroke-width:2; rx:18; ry:18; }
+    .title { font-size:26px; font-weight:bold; text-anchor:middle; }
+    .text { font-size:18px; text-anchor:middle; }
+    .arrow { stroke:#000; stroke-width:2; marker-end:url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7"/>
+    </marker>
+  </defs>
+
+  <!-- HUMAN INPUT -->
+  <rect class="box" x="250" y="50" width="1100" height="120"/>
+  <text class="title" x="800" y="100">Human Input Layer</text>
+  <text class="text" x="800" y="135">Raw cognition, writing, behaviour</text>
+
+  <line class="arrow" x1="800" y1="170" x2="800" y2="230"/>
+
+  <!-- APETEST -->
+  <rect class="box" x="250" y="230" width="1100" height="150"/>
+  <text class="title" x="800" y="280">Cognitive Genome – ApeTest v0.1</text>
+  <text class="text" x="800" y="315">5 probes → cognition topology snapshot</text>
+
+  <line class="arrow" x1="800" y1="380" x2="800" y2="450"/>
+
+  <!-- EUCS -->
+  <rect class="box" x="250" y="450" width="1100" height="180"/>
+  <text class="title" x="800" y="500">EUC Extraction</text>
+  <text class="text" x="800" y="540">Recursion • Representation • Compression</text>
+  <text class="text" x="800" y="575">Ambiguity • Overload</text>
+
+  <line class="arrow" x1="800" y1="630" x2="800" y2="700"/>
+
+  <!-- JSON PROFILE -->
+  <rect class="box" x="250" y="700" width="1100" height="140"/>
+  <text class="title" x="800" y="745">JSON Cognition Profile (v0.1)</text>
+  <text class="text" x="800" y="785">Machine-readable cognitive topology</text>
+
+  <line class="arrow" x1="800" y1="840" x2="800" y2="900"/>
+
+  <!-- ADAPTIVE INTERFACE -->
+  <rect class="box" x="200" y="900" width="1200" height="220"/>
+  <text class="title" x="800" y="950">Adaptive Symbound Interface Layer</text>
+  <text class="text" x="800" y="990">EUCs rewrite all explanations, instructions, scaffolding</text>
+  <text class="text" x="800" y="1025">Representation → analogy type • Ambiguity → structure level</text>
+  <text class="text" x="800" y="1060">Overload → task gating • Compression → summary density</text>
+
+  <line class="arrow" x1="800" y1="1120" x2="800" y2="1180"/>
+
+  <!-- JANET -->
+  <rect class="box" x="200" y="1180" width="1200" height="210"/>
+  <text class="title" x="800" y="1230">Modest Cognition Model (Janet Core)</text>
+  <text class="text" x="800" y="1270">Deterministic constraints • uncertainty gating</text>
+  <text class="text" x="800" y="1305">Interprets EUCs as operational reasoning limits</text>
+
+  <line class="arrow" x1="800" y1="1390" x2="800" y2="1450"/>
+
+  <!-- LLM -->
+  <rect class="box" x="200" y="1450" width="1200" height="200"/>
+  <text class="title" x="800" y="1495">LLM Layer (Signal / Instance001)</text>
+  <text class="text" x="800" y="1535">Generative exploration, synthesis, creativity</text>
+  <text class="text" x="800" y="1570">Shaped & bounded by Janet + EUCs</text>
+
+  <line class="arrow" x1="800" y1="1650" x2="800" y2="1710"/>
+
+  <!-- CHATTYFACTORY -->
+  <rect class="box" x="200" y="1710" width="1200" height="210"/>
+  <text class="title" x="800" y="1760">ChattyFactory / Worker–Foreman System</text>
+  <text class="text" x="800" y="1800">File sorting • planning • building • packaging</text>
+  <text class="text" x="800" y="1835">Directly affected by EUCs (structure, overload, representation)</text>
+
+  <line class="arrow" x1="800" y1="1920" x2="800" y2="1980"/>
+
+  <!-- ENTROPY ENGINE -->
+  <rect class="box" x="200" y="1980" width="1200" height="220"/>
+  <text class="title" x="800" y="2030">Entropy Folding & Eureka Cascade Engine</text>
+  <text class="text" x="800" y="2070">Cognitive load steering • breakthrough stabilization</text>
+  <text class="text" x="800" y="2105">Topology-aware energy redirection</text>
+
+  <line class="arrow" x1="800" y1="2200" x2="800" y2="2260"/>
+
+  <!-- OUTPUT SYSTEM -->
+  <rect class="box" x="200" y="2260" width="1200" height="200"/>
+  <text class="title" x="800" y="2310">Adaptive Symbound Software / Agora UI</text>
+  <text class="text" x="800" y="2350">ChattyOS • Janet Lab • Learning interfaces</text>
+  <text class="text" x="800" y="2385">Fully cognition-aligned environments</text>
+
+</svg>
