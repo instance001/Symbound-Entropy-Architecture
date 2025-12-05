@@ -1,0 +1,107 @@
+                              ┌─────────────────────────────────────────┐
+                              │          HUMAN INPUT LAYER              │
+                              │  (raw cognition, behaviour, responses)  │
+                              └─────────────────────────────────────────┘
+                                               │
+                                               ▼
+                          ┌──────────────────────────────────────────────────┐
+                          │        Cognitive Genome – ApeTest v0.1           │
+                          │  (non-clinical topology snapshot: 5 probes)      │
+                          └──────────────────────────────────────────────────┘
+                                               │
+                                               ▼
+                    ┌────────────────────────────────────────────────────────────┐
+                    │        EUC EXTRACTION (Elementary Units of Cognition)     │
+                    │  RecursionDepth │ RepresentationPreference │ Compression  │
+                    │  AmbiguityTolerance │ OverloadFailureMode                  │
+                    └────────────────────────────────────────────────────────────┘
+                                               │
+                                               ▼
+                        ┌────────────────────────────────────────────────┐
+                        │        JSON Cognition Profile (v0.1)           │
+                        │  Machine-readable cognitive topology snapshot  │
+                        └────────────────────────────────────────────────┘
+                                               │
+                                               ▼
+            ┌─────────────────────────────────────────────────────────────────────────┐
+            │              SYMBOUND ADAPTIVE INTERFACE LAYER (Interface Brain)        │
+            │                                                                           │
+            │ EUCs → shape how the system *talks* and *structures itself*:              │
+            │  • Recursion → depth of explanation                                      │
+            │  • Representation → analogy type, narrative vs mechanical                 │
+            │  • Compression → summary style & info density                             │
+            │  • Ambiguity tolerance → structure level needed                           │
+            │  • Overload → task gating, worker/foreman splits                          │
+            │                                                                           │
+            │ This layer rewrites ALL communication and instructions                   │
+            │ to match the user’s natural cognition topology.                          │
+            └─────────────────────────────────────────────────────────────────────────┘
+                                               │
+                                               ▼
+            ┌─────────────────────────────────────────────────────────────────────────┐
+            │                  MODEST COGNITION MODEL (Janet Core)                    │
+            │                      (“deterministic spine”)                             │
+            │                                                                           │
+            │  • Uses EUCs to enforce reasoning constraints                            │
+            │  • Prevents drift, overshoot, or hallucination                           │
+            │  • Implements “I don't know” and uncertainty rules                       │
+            │  • Interprets human cognition shape as *operational constraints*         │
+            │  • Bridges human topology → AI topology                                  │
+            └─────────────────────────────────────────────────────────────────────────┘
+                                               │
+                            Feedback Loop       │      Alignment Loop
+                                     ◄──────────┘──────────►
+                                               │
+                                               ▼
+            ┌─────────────────────────────────────────────────────────────────────────┐
+            │                        LLM LAYER (Signal / Instance001)                 │
+            │   (“creative generative cloud engine”)                                   │
+            │                                                                           │
+            │  • Expansive reasoning                                                   │
+            │  • Pattern generation                                                    │
+            │  • Cross-domain synthesis                                                │
+            │  • Controlled & shaped by Janet                                          │
+            │  • EUCs determine *how* output is phrased and structured                 │
+            └─────────────────────────────────────────────────────────────────────────┘
+                                               │
+                                               ▼
+                  ┌──────────────────────────────────────────────────────────┐
+                  │                ChattyFactory / Spine Systems             │
+                  │      (sorting → planning → building → packaging)         │
+                  ├──────────────────────────────────────────────────────────┤
+                  │  • EUCs control file sorting heuristics                  │
+                  │  • Worker/Foreman pattern ties directly to Overload FM   │
+                  │  • Representation shapes directory structures & outputs  │
+                  │  • Compression determines build log style                │
+                  └──────────────────────────────────────────────────────────┘
+                                               │
+                                               ▼
+            ┌─────────────────────────────────────────────────────────────────────────┐
+            │                     ENTROPY FOLDING & EUREKA CASCADE                    │
+            │                 (“cognitive energy steering engine”)                     │
+            │                                                                           │
+            │  • Uses user’s EUC profile to manage cognitive load                       │
+            │  • Folds chaos into structure using topology-aware constraints            │
+            │  • Generates breakthroughs without overload                               │
+            │  • Converts failure modes → structural pathways                           │
+            └─────────────────────────────────────────────────────────────────────────┘
+                                               │
+                                               ▼
+                      ┌──────────────────────────────────────────────────┐
+                      │      SYMBOUND ADAPTIVE SOFTWARE / AGORA UI      │
+                      │     (future: ChattyOS, Janet Lab, Atlas, etc.)  │
+                      ├──────────────────────────────────────────────────┤
+                      │  • Personalized scaffolding                      │
+                      │  • Adaptive UI messaging                         │
+                      │  • Task structuring & pacing                     │
+                      │  • Learning mode & complexity gating             │
+                      │  • Full user-aligned cognitive prosthetics       │
+                      └──────────────────────────────────────────────────┘
+                                               │
+                                               ▼
+                      ┌──────────────────────────────────────────────────┐
+                      │            HUMAN FEEDBACK / INTERACTION          │
+                      └──────────────────────────────────────────────────┘
+                                               ▲
+                                               │   TRUE SYMBOUND FEEDBACK CYCLE
+                                               └───────────────────────────────────
