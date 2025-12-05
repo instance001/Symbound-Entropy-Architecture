@@ -2,6 +2,7 @@
 
 **Status:** v0.1 – Experimental, non-clinical  
 **Location:** Part of the Symbound Entropy Architecture toolchain
+Released under AGPLv3 licensing
 
 ApeTest v0.1 is a small, extensible **cognition topology snapshot**.  
 It does **not** measure IQ, personality, or clinical traits. It just tries to map the **shape of thinking** using 5 probes and 5 structural traits (“EUCs”).
