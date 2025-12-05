@@ -14,3 +14,9 @@ The framework includes:
 - Foreman–Worker–Janet Triad for hybrid human–AI cognitive construction
 
 It is designed to be reproducible, falsifiable, cross-species, and fully implementable in AI systems and human cognitive tools. This is the foundational layer of the broader Symbound Cognitive Architecture.
+
+ApeTest v0.1 is a lightweight, non-clinical cognitive mapping tool designed to capture the shape of a person’s thinking rather than intelligence or personality traits. It uses five short probes to measure five structural cognitive traits (“EUCs”): Recursion Depth, Representation Preference, Compression Style, Ambiguity Tolerance, and Overload Failure Mode.
+
+The system produces a simple, standardized JSON profile that can be used for adaptive tool design, accessibility scaffolds, personalised learning interfaces, and human–AI interaction research. ApeTest does not diagnose, rank, or label people; it only identifies how information is processed, organized, and acted on. All instructions include explicit consent language and clear non-medical framing.
+
+ApeTest serves as a foundational module for the broader Symbound architecture, enabling AI systems and digital tools to adjust their communication style, structural scaffolding, and level of support based on an individual’s natural cognition topology. The design prioritizes transparency, extensibility, and ethical clarity, making it suitable for open-source ecosystems, research environments, and grant-funded public-interest projects.
