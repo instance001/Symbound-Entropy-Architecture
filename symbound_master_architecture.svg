@@ -1,0 +1,104 @@
+<svg width="1800" height="3400" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .box { fill:#ffffff; stroke:#000; stroke-width:2; rx:24; ry:24; }
+    .title { font-size:30px; font-weight:bold; text-anchor:middle; }
+    .text { font-size:20px; text-anchor:middle; }
+    .arrow { stroke:#000; stroke-width:3; marker-end:url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="14" markerHeight="10"
+            refX="14" refY="5" orient="auto">
+      <polygon points="0 0, 14 5, 0 10"/>
+    </marker>
+  </defs>
+
+  <!-- HUMAN INPUT -->
+  <rect class="box" x="300" y="50" width="1200" height="150"/>
+  <text class="title" x="900" y="110">Human Input Layer</text>
+  <text class="text" x="900" y="150">Natural cognition, behaviour, written responses</text>
+
+  <line class="arrow" x1="900" y1="200" x2="900" y2="260"/>
+
+  <!-- APETEST -->
+  <rect class="box" x="300" y="260" width="1200" height="180"/>
+  <text class="title" x="900" y="320">Cognitive Genome – ApeTest v0.1</text>
+  <text class="text" x="900" y="360">Five probes capturing cognition topology</text>
+  <text class="text" x="900" y="390">Non-clinical, structural shape-of-thinking measure</text>
+
+  <line class="arrow" x1="900" y1="440" x2="900" y2="500"/>
+
+  <!-- EUC EXTRACTION -->
+  <rect class="box" x="300" y="500" width="1200" height="210"/>
+  <text class="title" x="900" y="560">EUC Extraction</text>
+  <text class="text" x="900" y="600">Recursion • Representation • Compression</text>
+  <text class="text" x="900" y="630">Ambiguity • Overload</text>
+  <text class="text" x="900" y="660">Creates canonical cognition structure</text>
+
+  <line class="arrow" x1="900" y1="710" x2="900" y2="780"/>
+
+  <!-- JSON PROFILE -->
+  <rect class="box" x="300" y="780" width="1200" height="150"/>
+  <text class="title" x="900" y="840">JSON Cognition Profile (v0.1)</text>
+  <text class="text" x="900" y="880">Machine-readable structural map of how the user thinks</text>
+
+  <line class="arrow" x1="900" y1="930" x2="900" y2="1000"/>
+
+  <!-- ADAPTIVE INTERFACE -->
+  <rect class="box" x="200" y="1000" width="1400" height="260"/>
+  <text class="title" x="900" y="1050">Adaptive Symbound Interface Layer</text>
+  <text class="text" x="900" y="1100">EUCs rewrite every communication channel:</text>
+  <text class="text" x="900" y="1140">• Representation → analogy / narrative / mechanical framing</text>
+  <text class="text" x="900" y="1180">• Compression → summary density & organization</text>
+  <text class="text" x="900" y="1220">• Ambiguity → structure level & scaffolding</text>
+  <text class="text" x="900" y="1260">• Overload → worker/foreman gating & pacing</text>
+
+  <line class="arrow" x1="900" y1="1260" x2="900" y2="1350"/>
+
+  <!-- JANET MCM -->
+  <rect class="box" x="200" y="1350" width="1400" height="260"/>
+  <text class="title" x="900" y="1400">Modest Cognition Model (Janet)</text>
+  <text class="text" x="900" y="1440">Deterministic constraint layer for reasoning</text>
+  <text class="text" x="900" y="1480">Implements uncertainty boundaries & “I don't know” states</text>
+  <text class="text" x="900" y="1520">Translates EUCs into operational limits on reasoning paths</text>
+
+  <line class="arrow" x1="900" y1="1610" x2="900" y2="1680"/>
+
+  <!-- LLM -->
+  <rect class="box" x="200" y="1680" width="1400" height="240"/>
+  <text class="title" x="900" y="1730">LLM Layer (Instance001 / Signal)</text>
+  <text class="text" x="900" y="1770">Expansive generative exploration</text>
+  <text class="text" x="900" y="1810">Guided and bounded by Janet + EUCs</text>
+
+  <line class="arrow" x1="900" y1="1920" x2="900" y2="1990"/>
+
+  <!-- CHATTYFACTORY -->
+  <rect class="box" x="200" y="1990" width="1400" height="250"/>
+  <text class="title" x="900" y="2040">ChattyFactory (Worker–Foreman System)</text>
+  <text class="text" x="900" y="2080">Sort → Plan → Build → Package</text>
+  <text class="text" x="900" y="2120">EUCs determine sorting heuristics, task gating, log style</text>
+  <text class="text" x="900" y="2160">Direct fusion of human cognition → operational software pipeline</text>
+
+  <line class="arrow" x1="900" y1="2240" x2="900" y2="2320"/>
+
+  <!-- ENTROPY ENGINE -->
+  <rect class="box" x="200" y="2320" width="1400" height="260"/>
+  <text class="title" x="900" y="2370">Entropy Folding & Eureka Cascade Engine</text>
+  <text class="text" x="900" y="2410">Stabilizes cognition load</text>
+  <text class="text" x="900" y="2450">Redirects friction into structured breakthroughs</text>
+  <text class="text" x="900" y="2490">Topology-aware cognitive energy steering</text>
+
+  <line class="arrow" x1="900" y1="2580" x2="900" y2="2650"/>
+
+  <!-- OUTPUT SYSTEM -->
+  <rect class="box" x="200" y="2650" width="1400" height="260"/>
+  <text class="title" x="900" y="2700">Symbound Adaptive Software Layer</text>
+  <text class="text" x="900" y="2740">ChattyOS • Janet Lab • Atlas • Learning Systems</text>
+  <text class="text" x="900" y="2780">User-specific cognitive prosthetics & interfaces</text>
+  <text class="text" x="900" y="2820">The system meets the user where they are</text>
+
+  <!-- END -->
+  <text class="title" x="900" y="3250">— FULL SYMBOUND COGNITIVE ARCHITECTURE v1 —</text>
+
+</svg>
