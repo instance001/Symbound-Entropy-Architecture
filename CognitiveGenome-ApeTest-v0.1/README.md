@@ -1,80 +1,59 @@
 # 🧬 Cognitive Genome – ApeTest v0.1
 
-A tiny, open, non-clinical **cognition topology snapshot** kit.
+**Status:** v0.1 – Experimental, non-clinical  
+**Location:** Part of the Symbound Entropy Architecture toolchain
 
-This repo contains:
+ApeTest v0.1 is a small, extensible **cognition topology snapshot**.  
+It does **not** measure IQ, personality, or clinical traits. It just tries to map the **shape of thinking** using 5 probes and 5 structural traits (“EUCs”).
 
-- A **spec** for the ApeTest v0.1 probes and scoring rubric
-- A **CLI collector** to run the test on a willing ape
-- A **manual scoring layer**
-- An optional **LLM-based scoring stub**
-- Example raw + scored JSON files
-- A simple **ChattyFactory integration manifest** for future automation
+For full theory, rubric, and JSON schema, see:
 
-The goal:  
-Provide a minimal, practical starting point for the **Symbound Cognitive Genome Project** – a way to map *how* people think (structure), not *how well* they think (performance).
+- [`CognitiveGenome_ApeTest_v0.1.md`](./CognitiveGenome_ApeTest_v0.1.md)
 
 ---
 
-## Folder overview
+## 0. Scope & Ethics (Plain Language)
 
-- `spec/`
-  - `CognitiveGenome_ApeTest_v0.1.md` – full written spec: probes, scoring rubric, JSON schema
-- `cli/`
-  - `ape_test_v0_1.py` – runs the interactive test and saves raw responses
-  - `ape_score_v0_1.py` – manual scoring layer
-  - `ape_score_llm_v0_1.py` – LLM scoring stub (wire `call_llm()` to your model)
-- `examples/`
-  - `sample_raw_response.json` – example output from `ape_test_v0_1.py`
-  - `sample_profile_manual.json` – example manually scored profile
-  - `sample_profile_llm.json` – example LLM-scored profile
-- `integrations/chattyfactory/`
-  - `chattyfactory_manifest.json` – how this kit plugs into ChattyFactory as a bin/module
-  - `run_cognitive_genome_ape_test.bat` – convenience launcher for Windows users
+- **Not for:**
+  - Diagnosis
+  - Labeling people as better/worse
+  - Gatekeeping access
+
+- **For:**
+  - Self-understanding
+  - Matching people with tools / cognitive prosthetics
+  - Research on cognitive structure
+  - Building better human–AI scaffolds
+
+**Consent preamble:**
+
+> This is an experimental cognitive mapping exercise.  
+> It’s not a test of intelligence, and it’s not medical.  
+> It’s just trying to understand *how* you think — not *how well* you think.
 
 ---
 
-## Quickstart
+## 1. The 5 EUCs (v0.1)
 
-### 1. Collect responses
+Each EUC is produced by a single probe:
+
+1. `RecursionDepth` – how far you comfortably track causal chains  
+2. `RepresentationPreference` – how you naturally explain systems (parts, stories, procedures, etc.)  
+3. `CompressionStyle` – what survives when you summarise  
+4. `AmbiguityTolerance` – first move when the brief is fuzzy  
+5. `OverloadFailureMode` – pattern under too many tasks at once
+
+The detailed prompts and scoring rubrics are defined in the spec document.
+
+---
+
+## 2. Running the Test (CLI)
+
+### 2.1 Collect raw responses
+
+Use the CLI runner to collect a single subject’s raw responses:
 
 ```bash
-cd cli
+cd ApeTest
+
 python ape_test_v0_1.py
-```
-
-This will guide a participant through the 5 probes and write a file like:
-
-```text
-cognitive_genome_raw_anon-12ab34cd_20251119T123456Z.json
-```
-
-### 2. Manually score a profile
-
-```bash
-python ape_score_v0_1.py
-```
-
-Follow the on-screen prompts, using the spec in `spec/CognitiveGenome_ApeTest_v0.1.md` as your rubric.
-
-You’ll get a scored profile, e.g.:
-
-```text
-cognitive_genome_profile_anon-12ab34cd_20251119T124500Z.json
-```
-
-### 3. (Optional) LLM scoring
-
-Wire `cli/ape_score_llm_v0_1.py` to your local or remote model by implementing `call_llm(prompt: str) -> str`, then run:
-
-```bash
-python ape_score_llm_v0_1.py
-```
-
----
-
-## License / Ethics
-
-- Non-clinical, non-diagnostic, non-hierarchical.
-- Intended for self-understanding, research, tool-matching, and Symbound-style cognitive prosthetics.
-- Do **not** use this as a medical instrument or gatekeeping filter.
