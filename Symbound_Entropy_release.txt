@@ -3597,4 +3597,33 @@ Vault       Reroute
                            EXPANDED MIND
 
 
+Appendix – Cognitive Genome: ApeTest v0.1
+
+ApeTest v0.1 is the first standardized module of the Cognitive Genome, a schema for mapping structural cognition traits essential for adaptive scaffolding within the Symbound architecture. Unlike IQ or personality instruments, ApeTest targets cognitive topology — the structural invariants that determine how an individual receives, compresses, and acts on information.
+
+The test consists of five probes, each aligned to one EUC (Elementary Unit of Cognition):
+
+Recursion Depth Tolerance – comfort tracking multi-step causal chains
+
+Representation Preference – dominant explanatory mode (verbal, mechanical, narrative, procedural, metaphorical)
+
+Compression Style – what survives when summarising information
+
+Ambiguity Tolerance – first-move behavior under undefined constraints
+
+Overload Failure Mode – characteristic breakdown pattern under excessive task load
+
+Each probe is intentionally plain-language, nontechnical, and non-diagnostic. Responses can be scored manually using the included rubric or automatically via an LLM scoring layer. Output is standardized to a compact JSON schema, making the Cognitive Genome directly interoperable with Symbound components such as:
+
+Adaptive communication layers (matching explanation style to the user)
+
+Task scaffolding systems (adjusting structure level based on ambiguity tolerance)
+
+Cognitive prosthetics (mitigating failure modes with explicit support tools)
+
+Learning interfaces (aligning curriculum structure to compression and representation preferences)
+
+ApeTest v0.1 is deliberately minimal: five questions, five labels, and no hidden factors. This provides a robust foundation for iterative expansion (v0.2+), dataset construction, UX adaptation layers, and population-level cognition topology research, without invoking medical, clinical, or psychological classification systems.
+
+As such, it functions as the cognitive “entry layer” of the Symbound Entropy Architecture — a practical, ethical, transparent tool for mapping how a user thinks so the system can meet them where they already are.
 ---
