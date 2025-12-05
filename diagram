@@ -1,0 +1,80 @@
+                    ┌────────────────────────────────────────┐
+                    │        Cognitive Genome – ApeTest       │
+                    │                 v0.1                    │
+                    └────────────────────────────────────────┘
+
+                                 ▼  User begins test
+                     ┌────────────────────────────────────────┐
+                     │      1. Consent + Plain-Language Intro │
+                     │  ("Not medical, not IQ—just how you    │
+                     │     naturally think.")                  │
+                     └────────────────────────────────────────┘
+
+                                 ▼
+                     ┌────────────────────────────────────────┐
+                     │        2. Probe Sequence (5 items)     │
+                     ├────────────────────────────────────────┤
+                     │ P1 → Recursion Depth Tolerance         │
+                     │ P2 → Representation Preference         │
+                     │ P3 → Compression Style                 │
+                     │ P4 → Ambiguity Tolerance               │
+                     │ P5 → Overload Failure Mode             │
+                     └────────────────────────────────────────┘
+
+                                 ▼
+                     ┌────────────────────────────────────────┐
+                     │ 3. Raw Response Capture (JSON export)  │
+                     │   e.g.,                                │
+                     │   cognitive_genome_raw_<id>.json       │
+                     └────────────────────────────────────────┘
+                                 |
+                                 |  Contains:
+                                 |   • subject_id
+                                 |   • timestamp
+                                 |   • 5 raw probe responses
+                                 ▼
+
+        ┌────────────────────────────┐                 ┌────────────────────────────┐
+        │ 4A. Manual Scoring Layer   │                 │ 4B. LLM Scoring Layer       │
+        │ (ape_score_v0_1.py)        │                 │ (ape_score_llm_v0_1.py)     │
+        ├────────────────────────────┤                 ├────────────────────────────┤
+        │ • Displays responses       │                 │ • Builds rubric prompt      │
+        │ • Rater selects labels     │                 │ • Calls model               │
+        │ • Follows strict rubric    │                 │ • Requires strict JSON      │
+        └────────────────────────────┘                 └────────────────────────────┘
+                                 │                                  │
+                                 └───────────────┬──────────────────┘
+                                                 ▼
+
+                     ┌────────────────────────────────────────┐
+                     │      5. EUC Profile Generation         │
+                     │    cognitive_genome_profile_<id>.json  │
+                     ├────────────────────────────────────────┤
+                     │ 5 EUCs:                                │
+                     │  • RecursionDepth                      │
+                     │  • RepresentationPreference             │
+                     │  • CompressionStyle                     │
+                     │  • AmbiguityTolerance                   │
+                     │  • OverloadFailureMode                  │
+                     │ + notes, timestamps, source file        │
+                     └────────────────────────────────────────┘
+
+                                 ▼
+
+        ┌────────────────────────────────────────────────────────────────────┐
+        │                       6. Downstream Use                            │
+        ├────────────────────────────────────────────────────────────────────┤
+        │ • Adaptive system UX (instruction style, pacing)                   │
+        │ • Personalised AI scaffolds (task gating, structure)               │
+        │ • Cognitive prosthetics (Chatty/Janet/Foreman modules)             │
+        │ • Research datasets for cognition topology                         │
+        │ • Learning systems / tutoring / onboarding optimisations           │
+        │ • Symbound Architecture alignment layer                            │
+        └────────────────────────────────────────────────────────────────────┘
+
+                                 ▼
+
+                   ┌─────────────────────────────────────────┐
+                   │   End: A portable, ethical, non-clinical │
+                   │   cognition topology snapshot (v0.1)      │
+                   └─────────────────────────────────────────┘
