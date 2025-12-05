@@ -1,0 +1,21 @@
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .title { font-size:28px; font-weight:bold; }
+    .item { font-size:20px; }
+  </style>
+
+  <text class="title" x="50" y="50">Diagram Legend – Symbound Cognitive Architecture</text>
+
+  <text class="item" x="50" y="120">■ Human Input Layer — Real human cognition & behaviour</text>
+  <text class="item" x="50" y="170">■ ApeTest v0.1 — Captures 5 structural cognitive traits (EUCs)</text>
+  <text class="item" x="50" y="220">■ EUC Block — Recursion, Representation, Compression, etc.</text>
+  <text class="item" x="50" y="270">■ JSON Profile — Machine-readable cognition topology</text>
+  <text class="item" x="50" y="320">■ Adaptive Interface Layer — Rewrites system communication</text>
+  <text class="item" x="50" y="370">■ Janet (MCM) — Deterministic reasoning spine & constraints</text>
+  <text class="item" x="50" y="420">■ LLM Layer — Generative cloud of possibility</text>
+  <text class="item" x="50" y="470">■ ChattyFactory — Operational build engine</text>
+  <text class="item" x="50" y="520">■ Entropy Engine — Cognitive energy steering & breakthrough flow</text>
+  <text class="item" x="50" y="570">■ Symbound Output — Adaptive software, UIs, ChattyOS, Atlas</text>
+
+</svg>
