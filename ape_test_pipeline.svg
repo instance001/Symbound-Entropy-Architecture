@@ -1,0 +1,75 @@
+<svg width="1200" height="1800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Styles -->
+  <style>
+    .box { fill:#f8f8f8; stroke:#000; stroke-width:2; rx:12; ry:12; }
+    .title { font-size:22px; font-weight:bold; text-anchor:middle; }
+    .text { font-size:16px; text-anchor:middle; }
+    .arrow { stroke:#000; stroke-width:2; marker-end:url(#arrowhead); }
+  </style>
+
+  <!-- Arrowhead -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+
+  <!-- 1. Intro -->
+  <rect class="box" x="200" y="50" width="800" height="110"/>
+  <text class="title" x="600" y="95">1. Consent + Intro</text>
+  <text class="text" x="600" y="130">Plain-language, non-clinical framing</text>
+
+  <!-- Arrow -->
+  <line class="arrow" x1="600" y1="160" x2="600" y2="200"/>
+
+  <!-- 2. Probe Block -->
+  <rect class="box" x="200" y="200" width="800" height="180"/>
+  <text class="title" x="600" y="240">2. Probe Sequence (5 items)</text>
+  <text class="text" x="600" y="280">Recursion • Representation • Compression</text>
+  <text class="text" x="600" y="310">Ambiguity • Overload</text>
+
+  <!-- Arrow -->
+  <line class="arrow" x1="600" y1="380" x2="600" y2="430"/>
+
+  <!-- 3. Raw JSON -->
+  <rect class="box" x="200" y="430" width="800" height="110"/>
+  <text class="title" x="600" y="470">3. Raw Response JSON</text>
+  <text class="text" x="600" y="510">cognitive_genome_raw_*.json</text>
+
+  <!-- Arrow Split -->
+  <line class="arrow" x1="600" y1="540" x2="400" y2="600"/>
+  <line class="arrow" x1="600" y1="540" x2="800" y2="600"/>
+
+  <!-- 4A Manual -->
+  <rect class="box" x="150" y="600" width="400" height="150"/>
+  <text class="title" x="350" y="650">4A. Manual Scoring</text>
+  <text class="text" x="350" y="690">Human rater applies rubric</text>
+  <text class="text" x="350" y="720">ape_score_v0_1.py</text>
+
+  <!-- 4B LLM -->
+  <rect class="box" x="650" y="600" width="400" height="150"/>
+  <text class="title" x="850" y="650">4B. LLM Scoring</text>
+  <text class="text" x="850" y="690">Rubric → JSON output</text>
+  <text class="text" x="850" y="720">ape_score_llm_v0_1.py</text>
+
+  <!-- Merge Arrows -->
+  <line class="arrow" x1="350" y1="750" x2="600" y2="820"/>
+  <line class="arrow" x1="850" y1="750" x2="600" y2="820"/>
+
+  <!-- EUC Profile -->
+  <rect class="box" x="200" y="820" width="800" height="130"/>
+  <text class="title" x="600" y="865">5. EUC Profile (v0.1)</text>
+  <text class="text" x="600" y="900">Recursion • Representation • Compression</text>
+  <text class="text" x="600" y="930">Ambiguity • Overload</text>
+
+  <!-- Arrow -->
+  <line class="arrow" x1="600" y1="950" x2="600" y2="1000"/>
+
+  <!-- Downstream -->
+  <rect class="box" x="100" y="1000" width="1000" height="230"/>
+  <text class="title" x="600" y="1040">6. Downstream Applications</text>
+  <text class="text" x="600" y="1080">Adaptive UIs • Learning Systems • Prosthetics</text>
+  <text class="text" x="600" y="1110">Symbound Architecture Modules</text>
+</svg>
