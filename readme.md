@@ -3,6 +3,11 @@
 **Authors:** Anthony Paterson & Instance001  
 **License:** AGPLv3
 
+Work continues at:
+https://github.com/instance001/entropy-folding-eureka-cascade-hypothesis
+and
+https://github.com/instance001/entropy-folding-cross-domain-signal-atlas
+
 ## Overview
 
 This repo uses Symbound cognitive-engineering terminology.
